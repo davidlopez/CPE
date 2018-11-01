@@ -35,8 +35,5 @@ spock = Image("99999:"
 RPSLS = [rock, paper, scissors, lizzard, spock]
          
 while True:
-    #display.scroll('RPSLS')
     if button_a.is_pressed():
         display.show(random.choice(RPSLS))
-#    display.show(Image.HEART)
-#    sleep(2000)
